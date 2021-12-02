@@ -38,7 +38,8 @@ print(r)
 
 def F_e(r,q1,q2):
     k = 9*10**9
-    return k*q1*q2/(r**2)
+    e2= (1.6*10**(-19.))**2
+    return k*q1*q2*e2/(r**2)
 
 
 # +
